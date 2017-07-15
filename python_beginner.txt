@@ -1,0 +1,32 @@
+1. simple interest
+
+p=raw_input()
+t=raw_input()
+r=raw_input()
+SI=(int(p)*int(t)*float(r))/100
+print "The simple interest is:",SI
+
+
+
+2.To find square root of a number
+
+import math
+a=raw_input()
+s=math.sqrt(int(a))
+print "square root of the number:" ,s
+
+
+
+
+3.Convert a lower case to upper case
+
+while True:
+	print("Enter 'x' for exit.")
+	string = input("Enter any string: ")
+	if string == 'x':
+		break
+	else:
+		string_in_uppercase = string.upper()
+		print("String in Uppercase =",string_in_uppercase,"\n")
+
+
